@@ -1,0 +1,17 @@
+.nav-link.active {
+    background-color: #BEBEBE; /* สีของแถบสำหรับเมนูที่ใช้งานอยู่ */
+    color: white; /* สีของตัวหนังสือ */
+    font-weight: bold; /* ตัวหนังสือหนาขึ้น */
+}
+
+.nav-link {
+    background-color: transparent; /* สีพื้นหลังเมนูที่ไม่ได้ใช้งาน */
+    color: white; /* สีของตัวหนังสือเมนู */
+    padding: 10px 15px;
+    transition: background-color 0.3s ease; /* ทำให้การเปลี่ยนแถบสีนุ่มนวล */
+}
+
+.nav-link:hover {
+    background-color: #BEBEBE; /* สีที่แสดงเมื่อเอาเมาส์ไปวาง */
+}
+

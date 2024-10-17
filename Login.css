@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.login-container {
+    background-size: cover;
+    min-height: 100vh; 
+    /* display: flex;  */
+    font-family: "Platypi", serif;
+     align-items: center;
+    justify-content: center;
+    
+}
+
+
+.login-form { 
+
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5); /* เปลี่ยนความโปร่งใส */
+    backdrop-filter: blur(10px); /* ใช้ฟิลเตอร์กรอง */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+.login-container .btn-primary {
+    background-color: #1f5612;
+    border-color: #fff;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 16px;
+    width: 100%; 
+    color: #fff;
+}
+.login-container .form-control { 
+    width: calc(100% - 18px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #261e05;
+    border-radius: 18px; 
+
+    box-sizing: border-box;
+}
+.login-container .form-control:invalid {
+    border-color: #1b1919;
+}
+.login-container .btn-outline-primary:hover {
+    background-color: #aa977e;
+    color: #fff;
+}
+.login-container .btn-primary, 
+.login-container .btn-outline-primary {
+    color: #fff; 
+}
+
+.login-container .btn-primary {
+    background-color: #1f5612;
+}
+
+
+.login-container .btn-outline-primary:hover {
+    background-color: #3c6248;
+    color: #fff;
+}
+
+.login-container .btn-primary:hover {
+    background-color: #54703f; /* สีน้ำตาลเข้มขึ้น */
+    color: #fff;
+}
+
+

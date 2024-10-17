@@ -1,0 +1,32 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .printableArea, .printableArea * {
+        visibility: visible;
+    }
+    .printableArea {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+
+/* .nav-link.active {
+    background-color: #BEBEBE;
+    color: white; 
+    font-weight: bold; 
+}
+
+.nav-link {
+    background-color: transparent; 
+    color: white; 
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #BEBEBE; 
+} */
+
